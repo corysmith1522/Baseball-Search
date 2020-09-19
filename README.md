@@ -49,22 +49,26 @@ https://wireframe.cc/pro/pp/2e1b4eccf374428 -- main desktop wireframe
 https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
 
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Establish base HTML that includes header, footer, website description, background image, form, button, placeholders for image & text 
+- Establish base CSS guidelines to desktop page that aligns everything in center and spaced appropriately with proper sizing, makes text readable, properly displays image in proportion to the page
+- Return API results using Javascript and Axios to display player information and an image onto the website
+- Incorporate event listener to activate search functions when button is clicked
+- Pull in API data for player biographical information
+- Pull in API data for player image
+- Pull in API data for player statistics
+- Establish proper media query design to reorganize the page for mobile platform
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Wrap text so it flows to fit the screen width after scrolling below the image
+- Style the button and search fields with advanced CSS techniques, creating a fancier display
+- Make footer fixed to the page so when user scrolls, always see the footer with site sources and authorization
+- Add an animation upon hitting the button that processes while the API gathers the data
+- Incorporate a background image that dynamically changes to the team logo of the player searched for
 
 ## Project Schedule
 
