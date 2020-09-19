@@ -6,11 +6,43 @@ Public web URL goes here.
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This website will allow a user to enter a current MLB player's name into a search field and when they submit the search, the return will be a picture of the player, some basic biographical information about the player, and a rundown of the player's statistics broken down by season. All of this will be encompassed in one page with ability to clear their respective search each time by clicking a button that says "clear search" or typing in a new player to start a new search. It will be formatted to allow for access on desktop and mobile.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://developer.sportradar.com/
+
+```json 
+{player: {
+	id: "6e1cac5c-b059-4b80-a267-5143b19efb27",
+	status: "RET",
+	position: "IF",
+	primary_position: "1B",
+	first_name: "Steven",
+	last_name: "Pearce",
+	preferred_name: "Steve",
+	full_name: "Steve Pearce",
+	height: "71",
+	weight: "200",
+	throw_hand: "R",
+	bat_hand: "R",
+	college: "South Carolina",
+	high_school: "Lakeland, FL",
+	birthdate: "1983-04-13",
+	birthstate: "FL",
+	birthcountry: "USA",
+	birthcity: "Lakeland",
+	pro_debut: "2007-09-01",
+	updated: "2020-04-14T14:03:57+00:00",
+	reference: "456665",
+	draft: {
+		team_id: "481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd",
+		year: 2005,
+		round: 8,
+		pick: 11
+	}
+```
+    
 
 ## Wireframes
 
