@@ -69,7 +69,7 @@ https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
 - Style the button and search fields with advanced CSS techniques, creating a fancier display
 - Make footer fixed to the page so when user scrolls, always see the footer with site sources and authorization
 - Add an animation upon hitting the button that processes while the API gathers the data
-- Incorporate a background image that dynamically changes to the team logo of the player searched for
+- Incorporate a background image that dynamically changes to the team logo of the player (note: probably use different API)
 
 ## Project Schedule
 
