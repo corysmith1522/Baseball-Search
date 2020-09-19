@@ -46,6 +46,7 @@ https://developer.sportradar.com/
 
 ## Wireframes
 https://wireframe.cc/pro/pp/2e1b4eccf374428 -- main desktop wireframe
+
 https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
 
 
