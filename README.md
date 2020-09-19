@@ -45,8 +45,8 @@ https://developer.sportradar.com/
     
 
 ## Wireframes
+https://wireframe.cc/pro/pp/2e1b4eccf374428 -- main desktop wireframe
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
 
 ### MVP/PostMVP
 
