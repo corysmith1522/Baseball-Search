@@ -111,7 +111,8 @@ https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://wireframe.cc/pro/pp/111fbc7c4374467 -- also shown in website_files folder
+
 
 ## Timeframes
 
