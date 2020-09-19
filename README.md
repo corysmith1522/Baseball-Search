@@ -116,15 +116,23 @@ https://wireframe.cc/pro/pp/111fbc7c4374467 -- also shown in website_files folde
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Create basic HTML Structure | H | 1hr|  |  |
+| Create CSS styles for HTML | H | 3hrs|  |  |
+| Debug CSS to account for center & spacing | H | 3hrs|  |  |
+| Successfully pull in API data | H | 2hrs|  |  |
+| Write JS code to map out API requests | H | 3hrs|  |  |
+| Write JS code to return data to Browser | H | 3hrs|  |  |
+| Add event listener for submit button | H | 1hrs|  |  |
+| Test all JS functionality | H | 3hrs|  |  |
+| Implement Responsive Design, make media query for mobile | H | 3hrs|  |  |
+| Debug Responsive Design | H | 3hrs|  |  |
+| Stylize button | H | 3hrs|  |  |
+| Make footer a fixed position on the page | H | 3hrs|  |  |
+| Make background image change to image of team for each player | H | 3hrs|  |  |
+| Animations | H | 3hrs|  |  |
+| Total | H | 37hrs|  |  |
 
 ## Code Snippet
 
