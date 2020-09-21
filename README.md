@@ -102,7 +102,7 @@ https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Project Approval, base HTML, CSS to align properly, start API returns | Incomplete
 |Sept 22| Continue API returns, test all API pulls, write JS functions, add event listener | Incomplete
 |Sept 23| Populate browser with API data, Make media query for responsive design, finish MVP | Incomplete
