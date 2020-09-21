@@ -26,10 +26,25 @@ input {
   margin: 0 30px;
 }
 
+#player-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
 .footer {
-  box-sizing: border-box;
+  position: absolute;
+  box-sizing: content-box;
   border: solid;
   border-radius: 20%;
+  padding: 10px;
+  margin: auto 30%;
   text-align: center;
-  margin: 0 300px;
 }
