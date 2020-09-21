@@ -8,13 +8,14 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="./app.js" defer></script>
 </head>
 
 <body>
   <header>
-    <h1 class="title">Welcome to Baseball Stat Search!</h1>
+    <h1 class="title"><em>Welcome to Baseball Stat Search!</em></h1>
   </header>
   <main>
     <h4 id="description">Search any current player in the field below for their info and stats!</h4>
@@ -22,9 +23,11 @@
       <input type="text" id='player-search' />
       <button id="search-button">Swing!</button>
     </form>
-    <img id='player-image' src=''>
-    <p id='player-bio'></p>
-    <p id='player-stats'></p>
+    <div id="player-info">
+      <img id='player-image' src=''>
+      <p id='player-bio'></p>
+      <p id='player-stats'></p>
+    </div>
   </main>
   <footer>
     <h4 class="footer">Data courtesy of <a href="https://developer.sportradar.com/">SportRadar</a> and

@@ -10,3 +10,26 @@ a {
   color: #ffffff;
   text-shadow: none;
 }
+
+header {
+  margin: auto;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 400%;
+  border-style: dashed;
+  font-family: 'Satisfy', cursive;
+}
+
+input {
+  margin: 0 30px;
+}
+
+.footer {
+  box-sizing: border-box;
+  border: solid;
+  border-radius: 20%;
+  text-align: center;
+  margin: 0 300px;
+}
