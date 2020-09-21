@@ -72,9 +72,9 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
     
 
 ## Wireframes
-https://wireframe.cc/pro/pp/2e1b4eccf374428 -- main desktop wireframe
+![Main Wireframe](https://github.com/corysmith1522/Baseball-Stat-Search/blob/master/website_files/Homepage.png)
 
-https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
+![Mobile Wireframe](https://github.com/corysmith1522/Baseball-Stat-Search/blob/master/website_files/Mobile%20Homepage.png)
 
 
 ### MVP/PostMVP  
@@ -111,7 +111,7 @@ https://wireframe.cc/pro/pp/4c48594b8374430 -- mobile platform wireframe
 
 ## Priority Matrix
 
-https://wireframe.cc/pro/pp/111fbc7c4374467 -- also shown in website_files folder
+![Priority Matrix](https://github.com/corysmith1522/Baseball-Stat-Search/blob/master/website_files/Time%20Matrix.png)
 
 
 ## Timeframes
