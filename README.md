@@ -118,7 +118,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Create basic HTML Structure | H | 1hr|  |  |
+| Create basic HTML Structure | H | 1hr| 30m | 30m |
 | Create CSS styles for HTML | H | 3hrs|  |  |
 | Debug CSS to account for center & spacing | H | 3hrs|  |  |
 | Successfully pull in API data | H | 2hrs|  |  |
