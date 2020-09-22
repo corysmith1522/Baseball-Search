@@ -1,16 +1,14 @@
 # Project Overview
 
-## Baseball-Stat-Search
+## Baseball-Search
 
 Public web URL goes here.
 
 ## Project Description
 
-This website will allow a user to enter a current MLB player's name into a search field and when they submit the search, the return will be a picture of the player, some basic biographical information about the player, and a rundown of the player's statistics broken down by season. All of this will be encompassed in one page with ability to clear their respective search each time by clicking a button that says "clear search" or typing in a new player to start a new search. It will be formatted to allow for access on desktop and mobile.
+This website will allow a user to select a MLB team from a drop-down menu and when swinging, the result will be a list of all the current, active players on that respective team! No more having to wonder who is on your favorite team, thanks to Baseball Search!
 
 ## API and Data Sample
-
-https://developer.sportradar.com/ -- statistics
 
 https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information and image
 
@@ -87,7 +85,6 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 - Incorporate event listener to activate search functions when button is clicked
 - Pull in API data for player biographical information (sportsdata)
 - Pull in API data for player image (sportsdata)
-- Pull in API data for player statistics (sportradar)
 - Establish proper media query design to reorganize the page for mobile platform
 
 #### PostMVP  
@@ -104,7 +101,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Project Approval, base HTML, CSS to align properly, start API returns | Complete
-|Sept 22| Continue API returns, test all API pulls, write JS functions, add event listener | Incomplete
+|Sept 22| Continue API returns, test all API pulls, write JS functions, add event listener | Complete
 |Sept 23| Populate browser with API data, Make media query for responsive design, finish MVP | Incomplete
 |Sept 24| Text Wrap, button styling, fixed footer, background image, animation if time | Incomplete
 |Sept 25| Presentations | Incomplete
@@ -121,28 +118,26 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Create basic HTML Structure | H | 1hr| 30m | 30m |
 | Create CSS styles for HTML | H | 3hrs| 1hr | 1 hr |
 | Debug CSS to account for center & spacing | H | 3hrs| 2.5hrs | 2.5hrs |
-| Successfully pull in API data | H | 2hrs|  |  |
-| Write JS code to map out API requests | H | 3hrs|  |  |
-| Write JS code to return data to Browser | H | 3hrs|  |  |
-| Add event listener for submit button | H | 1hrs|  |  |
-| Test all JS functionality | H | 3hrs|  |  |
+| Successfully pull in API data | H | 2hrs| 6hrs | 6hrs |
+| Write JS code to map out API requests | H | 3hrs| 4hrs | 4hrs |
+| Write JS code to return data to Browser | H | 3hrs| 2hrs | 2hrs |
+| Add event listener for submit button | H | 1hrs| 30m | 30m |
+| Test all JS functionality | H | 3hrs| 3hrs | 3hrs |
 | Implement Responsive Design, make media query for mobile | H | 3hrs|  |  |
 | Debug Responsive Design | H | 3hrs|  |  |
 | Stylize button | H | 3hrs|  |  |
 | Make footer a fixed position on the page | H | 3hrs|  |  |
 | Make background image change to image of team for each player | H | 3hrs|  |  |
 | Animations | H | 3hrs|  |  |
-| Total | H | 37hrs| 4hrs | 4hrs |
+| Total | H | 37hrs| 19.5hrs | 19.5hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+Birthplace: ${player.BirthCity}, ${player.BirthState || player.BirthCountry} 
 ```
-
+On my own, I figured out how to not print a "null" value out on the browser by inserting a "or" conditional.
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.
+ This project pivoted towards listing out players on the respective teams rather than searching by player, allowing for less room for error when making the search request.
