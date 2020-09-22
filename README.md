@@ -103,7 +103,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Sept 21| Project Approval, base HTML, CSS to align properly, start API returns | Incomplete
+|Sept 21| Project Approval, base HTML, CSS to align properly, start API returns | Complete
 |Sept 22| Continue API returns, test all API pulls, write JS functions, add event listener | Incomplete
 |Sept 23| Populate browser with API data, Make media query for responsive design, finish MVP | Incomplete
 |Sept 24| Text Wrap, button styling, fixed footer, background image, animation if time | Incomplete
@@ -119,8 +119,8 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Create basic HTML Structure | H | 1hr| 30m | 30m |
-| Create CSS styles for HTML | H | 3hrs|  |  |
-| Debug CSS to account for center & spacing | H | 3hrs|  |  |
+| Create CSS styles for HTML | H | 3hrs| 1hr | 1 hr |
+| Debug CSS to account for center & spacing | H | 3hrs| 2.5hrs | 2.5hrs |
 | Successfully pull in API data | H | 2hrs|  |  |
 | Write JS code to map out API requests | H | 3hrs|  |  |
 | Write JS code to return data to Browser | H | 3hrs|  |  |
@@ -132,7 +132,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Make footer a fixed position on the page | H | 3hrs|  |  |
 | Make background image change to image of team for each player | H | 3hrs|  |  |
 | Animations | H | 3hrs|  |  |
-| Total | H | 37hrs|  |  |
+| Total | H | 37hrs| 4hrs | 4hrs |
 
 ## Code Snippet
 
