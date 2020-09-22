@@ -36,19 +36,31 @@ div {
   margin-bottom: 20px;
 }
 
-input {
+select {
   margin: 0 30px;
 }
 
-#player-info {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
+#active-roster {
+  display: block;
+  text-align: center;
 }
 
+p, img {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+}
+
+/* #player-stats {
+  display: block;
+  text-align: center;
+} */
+
 #player-image {
+  display: block;
+  margin: 0 auto;
   max-width: 20%;
   height: auto;
 }

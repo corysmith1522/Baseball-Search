@@ -29,7 +29,10 @@ function printData(active) {
     console.log(`${player.FirstName} ${player.LastName} `)
     // console.log(player)
     let p = document.createElement('p')
-    p.textContent = `${player.Jersey} | ${player.FirstName} ${player.LastName} | ${player.Position} | ${player.BirthCity}, ${player.BirthState || player.BirthCountry} | ${player.BatHand}, ${player.ThrowHand}`
+    p.textContent = `#${player.Jersey} | ${player.FirstName} ${player.LastName} | Position: ${player.Position} | Birthplace: ${player.BirthCity}, ${player.BirthState || player.BirthCountry} | Bats: ${player.BatHand}, Throws: ${player.ThrowHand} | College: ${player.College || ' '}`
     document.querySelector('#player-stats').append(p)
+    let img = document.createElement('img')
+    img.setAttribute('src', player.PhotoUrl)
+    document.querySelector('#player-stats').append(img)
   })
 }
