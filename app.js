@@ -4,16 +4,15 @@
 let search = document.querySelector('#player-search')
 let button = document.querySelector('#search-button')
 button.addEventListener('click', async (event) => {
-  getOptions();
+  getName()
   event.preventDefault();
-});
-async function getOptions() {
+})
+async function getName() {
   try {
-    // const url = ``
-    const response = await axios.get(`https://api.sportsdata.io/v3/mlb/scores/json/Players?key=23c95a605da34a6da64a5a2e44160c36`)
+    let response = await axios.get(`https://api.sportsdata.io/v3/mlb/scores/json/Players?key=23c95a605da34a6da64a5a2e44160c36`)
     // console.log(response);
     response.data.forEach(player => {
-      let fullName = `${player.FirstName} ${player.LastName}`
+      let fullName = `${player.FirstName} ${player.LastName} ${player.Position}`
       // let input = "Chase Anderson"
       if (search.value === fullName) {
         console.log(player)
