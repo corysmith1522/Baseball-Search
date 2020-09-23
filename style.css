@@ -204,6 +204,7 @@ footer {
   .title {
     font-size: 120%;
   }
+}
 
 @media screen and (max-width: 300px) {
   button {
