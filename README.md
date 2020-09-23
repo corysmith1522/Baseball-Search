@@ -1,6 +1,4 @@
-# Project Overview
-
-## Baseball-Search
+# Baseball-Search
 
 Public web URL goes here.
 
