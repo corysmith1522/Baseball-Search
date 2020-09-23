@@ -29,17 +29,17 @@ function inputValue(e) {
 function printData(active) {
   // removeData()
   active.forEach(player => {
-    console.log(`${player.FirstName} ${player.LastName} `)
+    // console.log(`${player.FirstName} ${player.LastName} `)
     // console.log(player)
     let div = document.createElement('div')
     div.setAttribute("id", "player-stats")
     document.querySelector('.player-container').append(div)
-    let p = document.createElement('p')
-    p.textContent = `#${player.Jersey} | ${player.FirstName} ${player.LastName} | Position: ${player.Position} | Birthplace: ${player.BirthCity}, ${player.BirthState || player.BirthCountry} | Bats: ${player.BatHand}, Throws: ${player.ThrowHand} | College: ${player.College || ' '}`
-    document.querySelector('#player-stats').append(p)
     let img = document.createElement('img')
     img.setAttribute('src', player.PhotoUrl)
     document.querySelector('#player-stats').append(img)
+    let p = document.createElement('p')
+    p.textContent = `#${player.Jersey} | ${player.FirstName} ${player.LastName} | Position: ${player.Position} | Birthplace: ${player.BirthCity}, ${player.BirthState || player.BirthCountry} | Bats: ${player.BatHand}, Throws: ${player.ThrowHand} | College: ${player.College || ' '}`
+    document.querySelector('#player-stats').append(p)
   })
 }
 
