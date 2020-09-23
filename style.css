@@ -43,6 +43,23 @@ form {
   margin-bottom: 20px;
 }
 
+button {
+  background-color: #72293c;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  border: solid 1px #72293c;
+  color: #28334a;
+}
+
 div {
   margin-top: 20px;
   margin-bottom: 20px;

@@ -8,7 +8,7 @@ async function getName(team) {
   try {
     let response = await axios.get(`https://api.sportsdata.io/v3/mlb/scores/json/Players/${team}?key=23c95a605da34a6da64a5a2e44160c36`)
     let active = response.data.filter(player => player.Status === "Active")
-    // console.log(active)
+    console.log(active)
     printData(active)
   } catch (error) {
     console.log(`Error: ${error}`)
@@ -28,7 +28,8 @@ function inputValue(e) {
 
 function printData(active) {
   // removeData()
-  active.forEach(player => {
+  const sortedNames = active.sort((first, second) => first.Jersey > second.Jersey ? 1 : -1)
+  sortedNames.forEach(player => {
     // console.log(`${player.FirstName} ${player.LastName} `)
     // console.log(player)
     let div = document.createElement('div')
