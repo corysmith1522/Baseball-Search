@@ -100,7 +100,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Project Approval, base HTML, CSS to align properly, start API returns | Complete
 |Sept 22| Continue API returns, test all API pulls, write JS functions, add event listener | Complete
-|Sept 23| Populate browser with API data, Make media query for responsive design, finish MVP | Incomplete
+|Sept 23| Populate browser with API data, Make media query for responsive design, finish MVP | Complete
 |Sept 24| Text Wrap, button styling, fixed footer, background image, animation if time | Incomplete
 |Sept 25| Presentations | Incomplete
 
