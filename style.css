@@ -43,6 +43,14 @@ form {
   margin-bottom: 20px;
 }
 
+select {
+  padding: 5px 10px;
+  border: solid 2px #72293c;
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  margin: 0 30px;
+}
+
 button {
   background-color: #72293c;
   border: solid 1px #ffffff;
@@ -58,15 +66,12 @@ button:hover {
   background-color: #ffffff;
   border: solid 1px #72293c;
   color: #28334a;
+  box-shadow: 0 5px 10px 0 #000000;
 }
 
 div {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-select {
-  margin: 0 30px;
 }
 
 #active-roster {
@@ -119,6 +124,7 @@ p {
   margin: 0 auto;
   max-width: 20%;
   height: auto;
+  border-radius: 75px;
 }
 
 footer {
@@ -223,7 +229,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   button {
     display: block;
     margin: 20px auto;

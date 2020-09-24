@@ -120,14 +120,14 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Write JS code to map out API requests | H | 3hrs| 4hrs | 4hrs |
 | Write JS code to return data to Browser | H | 3hrs| 2hrs | 2hrs |
 | Add event listener for submit button | H | 1hrs| 30m | 30m |
-| Test all JS functionality | H | 3hrs| 3hrs | 3hrs |
+| Test all JS functionality | H | 3hrs| 5hrs | 5hrs |
 | Implement Responsive Design, make media query for mobile | H | 3hrs| 30m | 30m |
 | Debug Responsive Design | H | 3hrs| 1hr | 1hr |
-| Stylize button | H | 3hrs|  |  |
+| Stylize button | H | 3hrs| 1hr | 1hr |
 | Make footer a fixed position on the page | H | 3hrs|  |  |
 | Make background image change to image of team for each player | H | 3hrs|  |  |
 | Animations | H | 3hrs|  |  |
-| Total | H | 37hrs| 21hrs | 21hrs |
+| Total | H | 37hrs| 24hrs | 24hrs |
 
 ## Code Snippet
 
