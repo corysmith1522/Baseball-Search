@@ -22,7 +22,7 @@
     <h4 id="description">Find the current players on each team by selecting from the drop-down menu!</h4>
     <form>
       <!-- <input type="text" value="" placeholder="Enter Name" id='player-search' /> -->
-      <select name='Team Name' id=''>
+      <select name='Team Name' id='teams' onchange="addLogo()">
         <option>Team Name</option>
         <option value="ARI" class='ARI'>Arizona Diamondbacks</option>
         <option value="ATL" class='ATL'>Atlanta Braves</option>
@@ -60,10 +60,13 @@
     <div>
       <img id='player-image'
         src='https://cdn2.bigcommerce.com/server400/karer354/products/131862/images/471144/bb1__53046__75453.1515029827.1280.1280.jpg?c=2'>
+      <div id='logo'></div>
     </div>
     <h4>ACTIVE PLAYER ROSTER</h4>
-    <div class='player-container'>
-    </div>
+    <section class="info">
+      <div class='player-container'>
+      </div>
+    </section>
   </main>
   <footer>
     <h4 class="footer">Data courtesy of <a

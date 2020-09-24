@@ -50,3 +50,12 @@ function removeData() {
     removeElement.removeChild(removeElement.lastChild)
   }
 }
+
+function addLogo() {
+  let selection = document.querySelector('#teams')
+  selection.addEventListener('change', () => {
+    let logo = document.createElement('img')
+    logo.setAttribute('src', url('https://www.thesportsdb.com/images/media/team/badge/sutyqp1431251804.png'))
+    document.querySelector('#logo').append(logo)
+  })
+}
