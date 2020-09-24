@@ -114,7 +114,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Create basic HTML Structure | H | 1hr| 30m | 30m |
-| Create CSS styles for HTML | H | 3hrs| 1hr | 1 hr |
+| Create CSS styles for HTML | H | 3hrs| 4hrs | 4hrs |
 | Debug CSS to account for center & spacing | H | 3hrs| 2.5hrs | 2.5hrs |
 | Successfully pull in API data | H | 2hrs| 6hrs | 6hrs |
 | Write JS code to map out API requests | H | 3hrs| 4hrs | 4hrs |
@@ -127,7 +127,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Make footer a fixed position on the page | H | 3hrs|  |  |
 | Make background image change to image of team for each player | H | 3hrs|  |  |
 | Animations | H | 3hrs|  |  |
-| Total | H | 37hrs| 24hrs | 24hrs |
+| Total | H | 37hrs| 27hrs | 27hrs |
 
 ## Code Snippet
 
