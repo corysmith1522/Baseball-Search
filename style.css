@@ -96,17 +96,6 @@ div {
   border: none;
 }
 
-
-/* #player-stats {
-  border: solid 5rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 20px 30px;
-  font-family: 'Rubik', sans-serif;
-} */
-
 img {
   border: solid;
   border-color: #72293c;

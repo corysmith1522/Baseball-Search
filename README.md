@@ -101,7 +101,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 |Sept 21| Project Approval, base HTML, CSS to align properly, start API returns | Complete
 |Sept 22| Continue API returns, test all API pulls, write JS functions, add event listener | Complete
 |Sept 23| Populate browser with API data, Make media query for responsive design, finish MVP | Complete
-|Sept 24| Text Wrap, button styling, fixed footer, background image, animation if time | Incomplete
+|Sept 24| Text Wrap, button styling, fixed footer, background image, animation if time | Complete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
@@ -125,9 +125,9 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Debug Responsive Design | H | 3hrs| 1hr | 1hr |
 | Stylize button | H | 3hrs| 1hr | 1hr |
 | Make footer a fixed position on the page | H | 3hrs|  |  |
-| Make background image change to image of team | H | 3hrs|  |  |
+| Make background image change to image of team | H | 3hrs| 8hrs | 8hrs |
 | Animations | H | 3hrs|  |  |
-| Total | H | 37hrs| 27hrs | 27hrs |
+| Total | H | 37hrs| 35hrs | 35hrs |
 
 ## Code Snippet
 
@@ -136,6 +136,32 @@ Use this section to include a brief code snippet of functionality that you are p
 ```
 Birthplace: ${player.BirthCity}, ${player.BirthState || player.BirthCountry} 
 ```
-On my own, I figured out how to not print a "null" value out on the browser by inserting a "or" conditional.
+I figured out how to not print a "null" value out on the browser by inserting a "or" conditional.
+
+```
+const sortedNames = active.sort((first, second) => first.Jersey > second.Jersey ? 1 : -1)
+```
+Coming into this unit, I would not have been able to understand what this function meant, but now I do!
+
+```
+.player-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#player-stats {
+  border: 3mm ridge #ffffff;
+}
+
+#player-stats:empty {
+  border: none;
+}
+```
+I'm really happy with how the player info is located below their respective image and that the border only appears when data populates the div.
+
 ## Change Log
- This project pivoted towards listing out players on the respective teams rather than searching by player, allowing for less room for error when making the search request.
+ This project pivoted towards listing out players on the respective teams rather than searching by player, allowing for less room for error when making the search request. Also nixed the idea of fixing the header/footer to a position on the page, and the logos are displayed when first opening the page rather than as a background image.
