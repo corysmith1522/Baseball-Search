@@ -55,10 +55,9 @@ function addLogo() {
     let choice = document.querySelectorAll('option')
     let teamLogo = document.querySelectorAll('.team-logo')
     if (choice.value === teamLogo.classList) {
-      let logo = document.querySelector('.team-logo')
-      logo.style.display = "inline-block"
-    } else {
       logo.style.display = "none"
+    } else {
+      logo.style.display = "inline-block"
     }
   })
 }
