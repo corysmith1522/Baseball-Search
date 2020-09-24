@@ -50,11 +50,16 @@ function removeData() {
 }
 
 function addLogo() {
-  let selection = document.querySelector('#team-logo')
+  let selection = document.querySelector('button')
   selection.addEventListener('click', () => {
-    let logo = document.createElement('img')
-    logo.setAttribute('src', 'https://www.thesportsdb.com/images/media/team/badge/xuwwut1431255795.png')
-    document.querySelector('#team-logo').append(logo)
+    let choice = document.querySelectorAll('option')
+    let teamLogo = document.querySelectorAll('.team-logo')
+    if (choice.value === teamLogo.classList) {
+      let logo = document.querySelector('.team-logo')
+      logo.style.display = "inline-block"
+    } else {
+      logo.style.display = "none"
+    }
   })
 }
 

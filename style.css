@@ -127,11 +127,12 @@ p {
   border-radius: 75px;
 }
 
-#team-logo {
-  display: block;
-  margin: 0 auto;
-  max-width: 10%;
+.team-logo {
+  display: inline-block;
+  margin: auto 2px;
+  max-width: 5%;
   height: auto;
+  padding: 2px;
 }
 
 footer {
@@ -150,6 +151,7 @@ footer {
   margin: auto 30%;
   text-align: center;
   text-decoration: none;
+  font-size: 75%;
 }
 
 @media screen and (max-width: 950px) {

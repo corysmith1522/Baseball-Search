@@ -125,7 +125,7 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Debug Responsive Design | H | 3hrs| 1hr | 1hr |
 | Stylize button | H | 3hrs| 1hr | 1hr |
 | Make footer a fixed position on the page | H | 3hrs|  |  |
-| Make background image change to image of team for each player | H | 3hrs|  |  |
+| Make background image change to image of team | H | 3hrs|  |  |
 | Animations | H | 3hrs|  |  |
 | Total | H | 37hrs| 27hrs | 27hrs |
 
