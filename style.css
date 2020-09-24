@@ -127,6 +127,13 @@ p {
   border-radius: 75px;
 }
 
+#team-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 10%;
+  height: auto;
+}
+
 footer {
   position: relative;
   display: flex;

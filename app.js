@@ -1,14 +1,12 @@
 //Get player information: https://api.sportsdata.io/v3/mlb/scores/json/Player/${player-name}?key=23c95a605da34a6da64a5a2e44160c36
 //Get player statistics: http://api.sportradar.us/mlb/trial/v7/en/players/${player-name}/profile.json?api_key=rwdtx9v3uxsadnpwhaf6r6xd
 
-let search = document.querySelector('#player-search')
-
 async function getName(team) {
   removeData()
   try {
     let response = await axios.get(`https://api.sportsdata.io/v3/mlb/scores/json/Players/${team}?key=23c95a605da34a6da64a5a2e44160c36`)
     let active = response.data.filter(player => player.Status === "Active")
-    console.log(active)
+    // console.log(active)
     printData(active)
   } catch (error) {
     console.log(`Error: ${error}`)
@@ -52,10 +50,12 @@ function removeData() {
 }
 
 function addLogo() {
-  let selection = document.querySelector('#teams')
-  selection.addEventListener('change', () => {
+  let selection = document.querySelector('#team-logo')
+  selection.addEventListener('click', () => {
     let logo = document.createElement('img')
-    logo.setAttribute('src', url('https://www.thesportsdb.com/images/media/team/badge/sutyqp1431251804.png'))
-    document.querySelector('#logo').append(logo)
+    logo.setAttribute('src', 'https://www.thesportsdb.com/images/media/team/badge/xuwwut1431255795.png')
+    document.querySelector('#team-logo').append(logo)
   })
 }
+
+addLogo()

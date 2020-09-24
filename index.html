@@ -21,8 +21,7 @@
   <main>
     <h4 id="description">Find the current players on each team by selecting from the drop-down menu!</h4>
     <form>
-      <!-- <input type="text" value="" placeholder="Enter Name" id='player-search' /> -->
-      <select name='Team Name' id='teams' onchange="addLogo()">
+      <select name='Team Name' id='teams'>
         <option>Team Name</option>
         <option value="ARI" class='ARI'>Arizona Diamondbacks</option>
         <option value="ATL" class='ATL'>Atlanta Braves</option>
@@ -57,10 +56,12 @@
       </select>
       <button id="search-button">Swing!</button>
     </form>
-    <div>
+    <div id='images'>
       <img id='player-image'
         src='https://cdn2.bigcommerce.com/server400/karer354/products/131862/images/471144/bb1__53046__75453.1515029827.1280.1280.jpg?c=2'>
-      <div id='logo'></div>
+      <div id='logo'>
+        <img id='team-logo' src='https://www.thesportsdb.com/images/media/team/badge/sutyqp1431251804.png'>
+      </div>
     </div>
     <h4>ACTIVE PLAYER ROSTER</h4>
     <section class="info">
