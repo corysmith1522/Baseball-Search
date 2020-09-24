@@ -6,7 +6,6 @@ async function getName(team) {
   try {
     let response = await axios.get(`https://api.sportsdata.io/v3/mlb/scores/json/Players/${team}?key=23c95a605da34a6da64a5a2e44160c36`)
     let active = response.data.filter(player => player.Status === "Active")
-    // console.log(active)
     printData(active)
   } catch (error) {
     console.log(`Error: ${error}`)
@@ -17,19 +16,15 @@ const form = document.querySelector('form')
 form.addEventListener('submit', inputValue)
 
 function inputValue(e) {
-  // removeData()
   e.preventDefault()
   const inputValue = document.querySelector('select').value
-  // console.log(inputValue)
+  addLogo()
   getName(inputValue)
 }
 
 function printData(active) {
-  // removeData()
   const sortedNames = active.sort((first, second) => first.Jersey > second.Jersey ? 1 : -1)
   sortedNames.forEach(player => {
-    // console.log(`${player.FirstName} ${player.LastName} `)
-    // console.log(player)
     let div = document.createElement('div')
     div.setAttribute("id", "player-stats")
     document.querySelector('.player-container').append(div)
@@ -50,16 +45,15 @@ function removeData() {
 }
 
 function addLogo() {
-  let selection = document.querySelector('button')
-  selection.addEventListener('click', () => {
-    let choice = document.querySelectorAll('option')
-    let teamLogo = document.querySelectorAll('.team-logo')
-    if (choice.value === teamLogo.classList) {
-      logo.style.display = "none"
-    } else {
-      logo.style.display = "inline-block"
-    }
-  })
+  let choice = document.querySelectorAll('option')
+  console.log(choice)
+  let teamLogo = document.querySelectorAll('.team-logo')
+  if (choice.value === teamLogo.classList) {
+    logo.style.display = "none"
+  } else {
+    logo.style.display = "inline-block"
+    console.log(choice.classList)
+    logo.style.classList = choice.classList
+  }
 }
 
-addLogo()
