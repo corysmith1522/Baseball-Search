@@ -64,9 +64,3 @@ function removeLogos() {
   })
 }
 
-// let logos = document.querySelectorAll('.team-logo')
-// let logoBin = [`${logos[0]}`, `${logos[1]}`, `${logos[2]}`, `${logos[3]}`, `${logos[4]}`, `${logos[5]}`, `${logos[6]}`,
-// `${logos[7]}`, `${logos[8]}`, `${logos[9]}`, `${logos[10]}`, `${logos[11]}`, `${logos[12]}`, `${logos[13]}`, `${logos[14]}`,
-// `${logos[15]}`, `${logos[16]}`, `${logos[17]}`, `${logos[18]}`, `${logos[19]}`, `${logos[20]}`, `${logos[21]}`, `${logos[22]}`, `${logos[23]}`,
-// `${logos[24]}`, `${logos[25]}`, `${logos[26]}`, `${logos[27]}`, `${logos[28]}`, `${logos[29]}`,]
-// console.log(logoBin)
