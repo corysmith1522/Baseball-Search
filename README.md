@@ -1,6 +1,6 @@
 # Baseball-Search
 
-Public web URL goes here.
+https://corysmith1522.github.io/Baseball-Stat-Search/
 
 ## Project Description
 
