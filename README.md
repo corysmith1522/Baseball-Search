@@ -124,10 +124,9 @@ https://sportsdata.io/developers/api-documentation/mlb#/free -- bio information 
 | Implement Responsive Design, make media query for mobile | H | 3hrs| 30m | 30m |
 | Debug Responsive Design | H | 3hrs| 1hr | 1hr |
 | Stylize button | H | 3hrs| 1hr | 1hr |
-| Make footer a fixed position on the page | H | 3hrs|  |  |
 | Make background image change to image of team | H | 3hrs| 8hrs | 8hrs |
-| Animations | H | 3hrs|  |  |
-| Total | H | 37hrs| 35hrs | 35hrs |
+| Animations | H | 3hrs| 1hr | 1hr |
+| Total | H | 37hrs| 36hrs | 36hrs |
 
 ## Code Snippet
 
