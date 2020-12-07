@@ -1,6 +1,6 @@
 # Baseball-Search
 
-https://corysmith1522.github.io/Baseball-Stat-Search/
+https://corysmith1522.github.io/Baseball-Search/
 
 ## Project Description
 
